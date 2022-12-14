@@ -27,6 +27,7 @@ void check(FILE *p)
     if(p==NULL)
     {
         printf("Error: file was not created!\n");
+        printf ("greska" );
         exit(1);
     }
 }
